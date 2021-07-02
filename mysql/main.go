@@ -42,7 +42,7 @@ func main() {
 }
 
 func GenerateUsers(ctx context.Context, usersStore store.UsersStore) {
-	total := 100000
+	total := 1000000
 
 	wg := &sync.WaitGroup{}
 
